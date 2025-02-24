@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resume Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 10px;
+            padding: 10px;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            width: 80%;
+            margin: 30px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .profile {
+            flex: 1;
+            text-align: center;
+            margin-right: 20px;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .resume-content {
+            flex: 3;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #333;
+            font-size: 1.4em;
+            margin-top: 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .form-item {
+            margin: 10px 10px;
+        }
+        .form-item label {
+            font-weight: bold;
+        }
+        .form-item input, .form-item textarea {
+            width: 100%;
+            padding: 8px;
+            border: 5px solid #ddd;
+            border-radius: 4px;
+        }
+        .form-item textarea {
+            resize: vertical;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Profile Picture -->
+    <div class="profile">
+        <img src="images/profile-pic.png" alt="Profile Picture">
+    </div>
+
+    <!-- Resume Content -->
+    <div class="resume-content">
+        <h1>Marvin (Bella) Modelo</h1>
+        <p align="center"><b>778-948-9270 | marva.isabella.m@gmail.com | 545 Sydney Ave., Coquitlam, BC</b></p>
+        <p align="center"><em>"Responsible Tenant Seeking a New Home"</em></p>
+
+        <nav align="center">
+            <a href="index.html">Profile</a> &nbsp | &nbsp <a href="prof-history.html">Employment</a> &nbsp | &nbsp <a href="rental-history.html">Rental History</a> &nbsp | &nbsp <a href="education.html">Education</a> &nbsp | &nbsp<a href="credit-ref.html">Credit Refences</a> &nbsp | &nbsp<a href="credit-report.html">Credit Report</a> &nbsp
+        </nav>
+    
+        <br>
+          <!-- Credit References -->
+          <div class="section">
+            <h2>Credit Report</h2><hr>
+
+            <div class="form-item">
+                <label for="degree">Company: TransUnion</label>
+                <p>Credit Score: 789</p>
+                <p>Customer Service Ph: 1-800-663-9980</p>
+                <a href="images\Credit-score.jpg">View Score</a> <i>(Available in person if needed.)</i>
+        
+            </div>
+            <div class="form-item">
+                <p><label for="degree">Statement: Credit Disclosure</label></p>
+                <p>Credit Bureau: TransUnion</p>
+                <p>Date: As of February 17, 2025</p>
+                <p>Payment History: No past due</p>
+                    <a href="images\consumer-disclosiure.jpg">View Disclosure Statement 1</a> <i>
+                    <p><a href="images\Triangle CDS.jpeg">View Disclosure Statement 2</a></p><i></i>(Available in person if needed.)</i>
+            </div>
+            <p><i><b>Note:</b> These are live screenshots from my phone and can be verified in person if needed. Please inform me before conducting a credit check. Thank you!</i></p>
+
+    </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
