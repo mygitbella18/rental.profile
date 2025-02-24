@@ -5,22 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Resume Profile</title>
-    <style>
-        body {
+     <style>
+        body, html {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 10px;
             padding: 10px;
             color: #333;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        .container {
+        .container .content {
             display: flex;
             width: 80%;
+            max-width: 1200px;
             margin: 30px auto;
             background-color: #fff;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
+            box-sizing: border-box;
         }
         .profile {
             flex: 1;
